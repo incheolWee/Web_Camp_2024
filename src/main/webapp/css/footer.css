@@ -1,45 +1,39 @@
-.css-footer{
-    background: lightgrey;
+.footer{
+    border-top-color: lightslategrey;
     width: 100%;
-    height: 500px;
-    display: inline-block;
-
+    height: 50%;
+    background: lightgrey;
+    padding-left:50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
-.first{
-    width: 35%;
-    padding-top: 40px;
-    padding-left: 40px;
-
+.topbar{
+    display: flex;
 }
 .call{
-    outline: 2px solid transparent;
-    outline-offset: 2px;
+    width: 40%;
+}
+.title{
+    font-weight: bold;
+    font-size: 15px;
+}
+.contents{
+    color: grey;
+    font-size: 13px;
 }
 .phone{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding: 20px;
-
+    padding: 10px;
+    background: white;
+    border: grey;
+    border-radius: 20%;
 }
-.inline{
-    display: inline-block;
+.gray{
+    color: grey;
 }
-.second{
-
+.category{
+    width: 20%;
 }
-.third{
-
-    padding-top: 40px;
-    padding-left: 40px;
-
-}
-a:link{ color: black; text-decoration: none;}
-a:visited { color: black; text-decoration: none;}
-a:hover { color: lightslategrey; text-decoration: none;}
-div {
-    border: black 2px solid;
-}
-.massage{
-    padding-left: 40px;
-    font-color: darkgray;
+.mid-bar{
+    color: grey;
+    font-size: 10px;
 }

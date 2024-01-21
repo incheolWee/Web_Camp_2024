@@ -14,6 +14,21 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.webjars/jquery -->
+<!--    Jquery 파일을 다운로드-->
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery</artifactId>
+      <version>3.6.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.webjars/webjars-locator -->
+<!--   버전정보를 작성하지 않아도 되도록 해준다-->
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>webjars-locator</artifactId>
+      <version>0.40</version>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>Web_Camp_2024_1</finalName>

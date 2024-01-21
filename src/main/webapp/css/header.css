@@ -6,7 +6,6 @@ header{
 .logo{
     width: 150px;
     height: 50px;
-
 }
 .login{
     float: right;
@@ -14,7 +13,6 @@ header{
     padding: 10px;
     border-radius: 35%;
     border-color: lightgray;
-
 }
 .menu{
     padding-left:15px;
