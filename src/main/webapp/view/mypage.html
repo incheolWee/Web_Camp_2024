@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>결제 페이지</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+</head>
+<body >
+
+<div id="header"></div>
+<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse " style="position: absolute;">
+    <div class="sidebar-sticky pt-3">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                   마이 페이지 <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>
+                    나의 정보
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    예약 내역
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+</nav>
+
+<div class="container" >
+    <main>
+        <div class="col-md-7 col-lg-8" style="border: tomato 5px solid; padding: 30px; left: 20%; ">
+            <h4 class="mb-3">나의 정보</h4>
+            <form class="needs-validation" novalidate="">
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="phone" class="form-label">전화번호</label>
+                        <input type="text" class="form-control" id="phone" placeholder="010-XXXX-XXXX" value="" required="">
+                        <div class="invalid-feedback">
+                          전화번호를 작성해 주세요
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="lastName" class="form-label">이름</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                           이름을 작성해 주세요
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="username" class="form-label">닉네임</label>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                            <div class="invalid-feedback">
+                               닉네임을 작성해 주세요
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        <div class="invalid-feedback">
+                            이메일을 작성해 주세요
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="address" class="form-label">주소</label>
+                        <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                        <div class="invalid-feedback">
+                          주소를 입력해 주세요
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <label for="country" class="form-label">나라</label>
+                        <select class="form-select" id="country" required="">
+                            <option value="">선택...</option>
+                            <option>한국</option>
+                            <option>중국</option>
+                            <option>일본</option>
+                            <option>미국</option>
+                        </select>
+                        <div class="invalid-feedback">
+                           자신의 국가를 선택해 주세요
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="state" class="form-label">시</label>
+                        <select class="form-select" id="state" required="">
+                            <option value="">선택...</option>
+                            <option>서울</option>
+                            <option>경기도</option>
+                            <option>포항</option>
+
+                        </select>
+                        <div class="invalid-feedback">
+                            자신의 시를 선택해 주세요
+                        </div>
+                    </div>
+
+                </div>
+                <hr class="my-4">
+
+                <button class="w-100 btn btn-lg" type="submit" style="background-color: tomato; color: white">수정하기</button>
+            </form>
+        </div>
+    </main>
+</div>
+<div id="footer"></div>
+<script>
+    $(function (){
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+    });
+</script>
+</body>
+</html>
