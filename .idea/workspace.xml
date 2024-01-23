@@ -9,10 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b8c95d2-61b0-4c64-81f5-0d791c2d433f" name="변경" comment="main끝 view 페이지 작성 밑 부트스트렙 사용하여 틀 작성">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/mypage.html" afterDir="false" />
+    <list default="true" id="6b8c95d2-61b0-4c64-81f5-0d791c2d433f" name="변경" comment="나의 정보 작성">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/reservation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/reservation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/slide01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/slide01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/slide02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/slide02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/slide03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/slide03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/slide04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/slide04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/mypage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/mypage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,30 +48,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dnldl/IdeaProjects/Web_Camp_2024_1/src/main/webapp/css&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/dnldl/IdeaProjects/Web_Camp_2024_1/src/main/webapp/image",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dnldl\IdeaProjects\Web_Camp_2024_1\src\main\webapp\css" />
       <recent name="C:\Users\dnldl\IdeaProjects\Web_Camp_2024_1\src\main\webapp\image" />
+      <recent name="C:\Users\dnldl\IdeaProjects\Web_Camp_2024_1\src\main\webapp\view" />
+      <recent name="C:\Users\dnldl\IdeaProjects\Web_Camp_2024_1\src\main\webapp\css" />
       <recent name="C:\Users\dnldl\IdeaProjects\Web_Camp_2024_1\src\main\webapp\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -91,7 +98,7 @@
       <workItem from="1705813048548" duration="8041000" />
       <workItem from="1705829304493" duration="6713000" />
       <workItem from="1705921387098" duration="1793000" />
-      <workItem from="1706000410432" duration="11836000" />
+      <workItem from="1706000410432" duration="12624000" />
     </task>
     <task id="LOCAL-00001" summary="header 작성 완료">
       <option name="closed" value="true" />
@@ -117,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706027928123</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="나의 정보 작성">
+      <option name="closed" value="true" />
+      <created>1706033150608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706033150608</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +142,7 @@
     <MESSAGE value="header 작성 완료" />
     <MESSAGE value="이미지 추가 완료" />
     <MESSAGE value="main끝 view 페이지 작성 밑 부트스트렙 사용하여 틀 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="main끝 view 페이지 작성 밑 부트스트렙 사용하여 틀 작성" />
+    <MESSAGE value="나의 정보 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="나의 정보 작성" />
   </component>
 </project>
