@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    현재 페이지에서 다른 페이지으로 이동하기
+    <button onclick="location.href='index.html'">text</button >
+
+    새 페이지에서 다른 페이지 열기
+    <button onclick="window.open('index.html')">text</button >
+
+    현재 페이지 새로고침
+    <button onClick="location.reload();">text</button >
+
+    뒤로 가기
+    <button onClick="history.back();">text</button >
+
+    뒤로 1번 가기
+    <button onClick="history.go(-1);">text</button >
+
+    <!-- a 태그 -->
+
+    현재 페이지에서 다른 페이지으로 이동하기
+    <a href="#" onclick="location.href='index.html'">text</a>
+
+    새 페이지에서 다른 페이지 열기
+    <a href="#" onclick="window.open('index.html')">text</a>
+
+    현재 페이지 새로고침
+    <a href="#" onClick="location.reload();">text</a>
+
+    뒤로 가기
+    <a href="#" onClick="history.back();">text</a>
+
+    뒤로 1번 가기
+    <a href="#" onClick="history.go(-1);">text</a>
+
+
+    혹시나 history.back(), history.go(-1) 등 이 작동하지 않으면
+    return false;를 뒤쪽에 삽입하여 실행해 보세요.
+    <a href="#" onClick="history.go(-1);return false;">text</a>
+</div>
+</body>
+</html>

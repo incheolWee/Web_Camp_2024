@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-
+    <link rel="stylesheet" href="../css/login.css"/>
 </head>
 <body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <div id="header"></div>
-로그인 페이지
+
+<div class="center">
+
+<form method="post" action="main.html" id="login-form">
+   <h2 class="formName">로그인</h2>
+    <input type="text" name="userName" placeholder="Email">
+    <input type="password" name="userPassword" placeholder="Password">
+    <label for="remember-check">
+        <input type="checkbox" id="remember-check"> 아이디 저장하기
+    </label>
+    <input type="submit" value="Login">
+</form>
+</div>
+
 <div id="footer"></div>
 
 
